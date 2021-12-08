@@ -9,19 +9,23 @@ import java.util.List;
 public class BaseTests {
     private WebDriver driver;
 
-    public void setUp(){
+    public void setUp() throws InterruptedException {
         System.setProperty("webdriver.chrome.driver", "resources/chromedriver.exe");
         driver = new ChromeDriver();
         driver.get("https://the-internet.herokuapp.com/");
 
 
-        //print all tag elements with "a"
-        List<WebElement> links = driver.findElements(By.tagName("a"));
-        System.out.println(links.size());
+        //click on Shifting Content
+        WebElement shiftingContent = driver.findElement(By.linkText("Shifting Content"));
+        shiftingContent.click();
 
-        //click on Inputs
-        WebElement inputsLink = driver.findElement(By.linkText("Inputs"));
-        inputsLink.click();
+        //click on Shifting Content
+        WebElement menuElement = driver.findElement(By.linkText("Example 1: Menu Element"));
+        menuElement.click();
+
+        //print how many menu elements
+        List<WebElement> menuElementLinks = driver.findElements(By.tagName("a"));
+        System.out.println("Number of menu items: " + menuElementLinks.size());
 
         //fullscreen the window
         driver.manage().window().fullscreen();
@@ -31,7 +35,7 @@ public class BaseTests {
         driver.quit();
     }
 
-    public static void main(String args[]){
+    public static void main(String args[])  throws InterruptedException {
         BaseTests test = new BaseTests();
         test.setUp();
     }
