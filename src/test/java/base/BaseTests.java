@@ -14,16 +14,15 @@ public class BaseTests {
         driver = new ChromeDriver();
         driver.get("https://the-internet.herokuapp.com/");
 
-
         //click on Shifting Content
         WebElement shiftingContent = driver.findElement(By.linkText("Shifting Content"));
         shiftingContent.click();
 
-        //click on Shifting Content
+        //click on Menu Element
         WebElement menuElement = driver.findElement(By.linkText("Example 1: Menu Element"));
         menuElement.click();
 
-        //print how many menu elements
+        //print menu items
         List<WebElement> menuElementLinks = driver.findElements(By.tagName("a"));
         System.out.println("Number of menu items: " + menuElementLinks.size());
 
