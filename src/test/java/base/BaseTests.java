@@ -9,7 +9,7 @@ import java.util.List;
 public class BaseTests {
     private WebDriver driver;
 
-    public void setUp() throws InterruptedException {
+    public void setUp() {
         System.setProperty("webdriver.chrome.driver", "resources/chromedriver.exe");
         driver = new ChromeDriver();
         driver.get("https://the-internet.herokuapp.com/");
@@ -35,7 +35,7 @@ public class BaseTests {
         driver.quit();
     }
 
-    public static void main(String args[])  throws InterruptedException {
+    public static void main(String args[]) {
         BaseTests test = new BaseTests();
         test.setUp();
     }
