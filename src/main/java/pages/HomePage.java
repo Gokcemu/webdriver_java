@@ -25,6 +25,11 @@ public class HomePage {
         return new ForgotPasswordPage(driver);
     }
 
+    public ShiftingContentPage clickShiftingContent(){
+        clickLink("Shifting Content");
+        return new ShiftingContentPage(driver);
+    }
+
     private void clickLink(String linkText){
         driver.findElement(By.linkText(linkText)).click();
     }
