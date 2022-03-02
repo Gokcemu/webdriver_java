@@ -1,9 +1,12 @@
 package base;
 
+import com.google.common.collect.Lists;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.testng.annotations.AfterClass;
+import org.testng.annotations.BeforeClass;
 import pages.HomePage;
 
 import java.util.List;
@@ -12,23 +15,17 @@ public class BaseTests {
     private WebDriver driver;
     protected HomePage homePage;
 
-    public void setUp() {
+    @BeforeClass
+    public void setUp(){
         System.setProperty("webdriver.chrome.driver", "resources/chromedriver.exe");
         driver = new ChromeDriver();
-        driver.get("http://localhost:3000/");
-
-        homePage = new HomePage(driver);
-
-        //fullscreen the window
+        driver.get("https://the-internet.herokuapp.com/");
         driver.manage().window().fullscreen();
-        
-        //quit session
-        //System.out.println(driver.getTitle());
-        //driver.quit();
+        homePage = new HomePage(driver);
     }
 
-    public static void main(String args[]) {
-        BaseTests test = new BaseTests();
-        test.setUp();
+    @AfterClass
+    public void tearDown(){
+        driver.quit();
     }
 }

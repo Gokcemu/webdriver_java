@@ -1,0 +1,4 @@
+pages\SecureAreaPage.class
+utils\Config.class
+pages\LoginPage.class
+pages\HomePage.class

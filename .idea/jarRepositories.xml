@@ -4,6 +4,21 @@
     <remote-repository>
       <option name="id" value="central" />
       <option name="name" value="Central Repository" />
+      <option name="url" value="https://repo.maven.apache.org/maven2" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="central" />
+      <option name="name" value="Local Central Repository" />
+      <option name="url" value="http://repo.borsaistanbul.com/artifactory/core-releases" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="central-snapshots" />
+      <option name="name" value="Local Central Snapshot Repository" />
+      <option name="url" value="http://repo.borsaistanbul.com/artifactory/core-snapshots" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="central" />
+      <option name="name" value="Central Repository" />
       <option name="url" value="http://repo.borsaistanbul.com/artifactory/repos" />
     </remote-repository>
     <remote-repository>
