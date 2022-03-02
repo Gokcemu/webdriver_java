@@ -18,6 +18,7 @@ public class DropdownPage {
     }
 
     public void selectFromDropDown(String option){
+
         findDropDownElement().selectByVisibleText(option);
     }
 
@@ -27,6 +28,7 @@ public class DropdownPage {
     }
 
     private Select findDropDownElement(){
+
         return new Select(driver.findElement(dropdown));
     }
 

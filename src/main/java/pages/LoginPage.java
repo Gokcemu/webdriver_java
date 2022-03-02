@@ -3,8 +3,6 @@ package pages;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 
-import static utils.Config.AUTH_PASS;
-import static utils.Config.AUTH_USER;
 
 public class LoginPage {
 
@@ -19,11 +17,13 @@ public class LoginPage {
     }
 
     public void setUsernameField(String username){
-        driver.findElement(usernameField).sendKeys(AUTH_USER);
+
+        driver.findElement(usernameField).sendKeys(username);
     }
 
     public void setPasswordField(String password){
-        driver.findElement(passwordField).sendKeys(AUTH_PASS);
+
+        driver.findElement(passwordField).sendKeys(password);
     }
 
     public SecureAreaPage clickLoginButton(){
