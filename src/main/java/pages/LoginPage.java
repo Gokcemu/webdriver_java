@@ -13,8 +13,10 @@ public class LoginPage {
     private By secureAlert = By.cssSelector("#flash");
 
     public LoginPage(WebDriver driver) {
+
         this.driver = driver;
     }
+
 
     public void setUsernameField(String username){
 
@@ -29,6 +31,12 @@ public class LoginPage {
     public SecureAreaPage clickLoginButton(){
         driver.findElement(loginButton).click();
         return new SecureAreaPage(driver);
+    }
+
+    public HomePage returnHomePage(){
+        driver.navigate().back(); //back previous page
+        driver.navigate().back(); //back previous page
+        return new HomePage(driver);
     }
 
     public String getAlertText(){
