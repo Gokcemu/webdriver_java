@@ -8,5 +8,5 @@ Maven, Java, Selenium WebDriver, and for testing framework TestNG.
 <code> mvn package -DskipTests </code> install without running tests
 
 ## running the tests
-<code> mvn test </code> <br /> for the first run
+<code> mvn test </code> for the first run <br />
 <code>mvn clean test</code> run the tests 
