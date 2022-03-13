@@ -1,13 +1,12 @@
-# webdriver_java
+## webdriver_java
 The automation framework implemented for the https://the-internet.herokuapp.com/ site.
 
-# build
+## build
 Maven, Java, Selenium WebDriver, and for testing framework TestNG.
 
-<code> mvn clean </code>
-<code> mvn install </code>
-<code> mvn package -DskipTests </code> **for installing without running the tests**
+<code> mvn clean</code> <br /> <code> mvn install </code> <br />
+<code> mvn package -DskipTests </code> install without tests
 
-# running the tests
-</code> mvn test <code> for the first time running the tests 
-</code> mvn clean test </code> or  </code> mvn test </code>
+## running the tests
+<code> mvn test </code> <br />
+<code>mvn clean test</code>
