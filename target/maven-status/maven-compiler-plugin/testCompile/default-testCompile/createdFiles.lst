@@ -1,2 +1,8 @@
-base\BaseTests.class
+logout\LogoutTests.class
+digestauthenticate\BasicAuthenticationTests.class
+forgotpassword\ForgotPasswordTests.class
 login\LoginTests.class
+shiftingcontent\ShiftingContentTests.class
+base\BaseTests.class
+alerts\JSAlertsTests.class
+dropdown\DropdownTests.class

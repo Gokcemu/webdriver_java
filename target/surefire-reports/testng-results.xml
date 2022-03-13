@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="10" passed="10" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-03-13T17:51:04 TRT" name="TheHerokuApp-UIAutomation" finished-at="2022-03-13T17:51:41 TRT" duration-ms="37698">
+    <groups>
+    </groups>
+    <test started-at="2022-03-13T17:51:04 TRT" name="HerokuAppTests" finished-at="2022-03-13T17:51:41 TRT" duration-ms="37698">
+      <class name="shiftingcontent.ShiftingContentTests">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:shiftingcontent.ShiftingContentTests@7e0b85f9]" started-at="2022-03-13T17:51:35 TRT" name="setUp" finished-at="2022-03-13T17:51:39 TRT" duration-ms="4258" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testMenuElementReturnHomePage()[pri:0, instance:shiftingcontent.ShiftingContentTests@7e0b85f9]" started-at="2022-03-13T17:51:39 TRT" name="testMenuElementReturnHomePage" finished-at="2022-03-13T17:51:40 TRT" duration-ms="883" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMenuElementReturnHomePage -->
+        <test-method signature="testMenuElements()[pri:0, instance:shiftingcontent.ShiftingContentTests@7e0b85f9]" started-at="2022-03-13T17:51:40 TRT" name="testMenuElements" finished-at="2022-03-13T17:51:41 TRT" duration-ms="534" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMenuElements -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:shiftingcontent.ShiftingContentTests@7e0b85f9]" started-at="2022-03-13T17:51:41 TRT" name="tearDown" finished-at="2022-03-13T17:51:41 TRT" duration-ms="387" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- shiftingcontent.ShiftingContentTests -->
+      <class name="dropdown.DropdownTests">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:dropdown.DropdownTests@9225652]" started-at="2022-03-13T17:51:09 TRT" name="setUp" finished-at="2022-03-13T17:51:13 TRT" duration-ms="3349" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testSelectOption()[pri:0, instance:dropdown.DropdownTests@9225652]" started-at="2022-03-13T17:51:13 TRT" name="testSelectOption" finished-at="2022-03-13T17:51:13 TRT" duration-ms="487" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSelectOption -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:dropdown.DropdownTests@9225652]" started-at="2022-03-13T17:51:13 TRT" name="tearDown" finished-at="2022-03-13T17:51:14 TRT" duration-ms="366" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- dropdown.DropdownTests -->
+      <class name="logout.LogoutTests">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:logout.LogoutTests@6580cfdd]" started-at="2022-03-13T17:51:30 TRT" name="setUp" finished-at="2022-03-13T17:51:33 TRT" duration-ms="3487" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testSuccessfulLogout()[pri:0, instance:logout.LogoutTests@6580cfdd]" started-at="2022-03-13T17:51:33 TRT" name="testSuccessfulLogout" finished-at="2022-03-13T17:51:35 TRT" duration-ms="1543" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSuccessfulLogout -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:logout.LogoutTests@6580cfdd]" started-at="2022-03-13T17:51:35 TRT" name="tearDown" finished-at="2022-03-13T17:51:35 TRT" duration-ms="377" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- logout.LogoutTests -->
+      <class name="login.LoginTests">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:login.LoginTests@6a400542]" started-at="2022-03-13T17:51:21 TRT" name="setUp" finished-at="2022-03-13T17:51:25 TRT" duration-ms="3599" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testNullUsernameandPassword()[pri:0, instance:login.LoginTests@6a400542]" started-at="2022-03-13T17:51:25 TRT" name="testNullUsernameandPassword" finished-at="2022-03-13T17:51:26 TRT" duration-ms="1538" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testNullUsernameandPassword -->
+        <test-method signature="testSuccesfulLogin()[pri:0, instance:login.LoginTests@6a400542]" started-at="2022-03-13T17:51:26 TRT" name="testSuccesfulLogin" finished-at="2022-03-13T17:51:27 TRT" duration-ms="972" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSuccesfulLogin -->
+        <test-method signature="testWrongPassword()[pri:0, instance:login.LoginTests@6a400542]" started-at="2022-03-13T17:51:27 TRT" name="testWrongPassword" finished-at="2022-03-13T17:51:28 TRT" duration-ms="976" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testWrongPassword -->
+        <test-method signature="testWrongUsername()[pri:0, instance:login.LoginTests@6a400542]" started-at="2022-03-13T17:51:28 TRT" name="testWrongUsername" finished-at="2022-03-13T17:51:29 TRT" duration-ms="943" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testWrongUsername -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:login.LoginTests@6a400542]" started-at="2022-03-13T17:51:29 TRT" name="tearDown" finished-at="2022-03-13T17:51:30 TRT" duration-ms="430" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- login.LoginTests -->
+      <class name="digestauthenticate.BasicAuthenticationTests">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:digestauthenticate.BasicAuthenticationTests@64cd705f]" started-at="2022-03-13T17:51:04 TRT" name="setUp" finished-at="2022-03-13T17:51:09 TRT" duration-ms="5332" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testBasicAuthenticate()[pri:0, instance:digestauthenticate.BasicAuthenticationTests@64cd705f]" started-at="2022-03-13T17:51:09 TRT" name="testBasicAuthenticate" finished-at="2022-03-13T17:51:09 TRT" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testBasicAuthenticate -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:digestauthenticate.BasicAuthenticationTests@64cd705f]" started-at="2022-03-13T17:51:09 TRT" name="tearDown" finished-at="2022-03-13T17:51:09 TRT" duration-ms="427" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- digestauthenticate.BasicAuthenticationTests -->
+      <class name="forgotpassword.ForgotPasswordTests">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:forgotpassword.ForgotPasswordTests@654f0d9c]" started-at="2022-03-13T17:51:14 TRT" name="setUp" finished-at="2022-03-13T17:51:20 TRT" duration-ms="6535" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testForgotPassword()[pri:0, instance:forgotpassword.ForgotPasswordTests@654f0d9c]" started-at="2022-03-13T17:51:20 TRT" name="testForgotPassword" finished-at="2022-03-13T17:51:21 TRT" duration-ms="826" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testForgotPassword -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:forgotpassword.ForgotPasswordTests@654f0d9c]" started-at="2022-03-13T17:51:21 TRT" name="tearDown" finished-at="2022-03-13T17:51:21 TRT" duration-ms="391" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- forgotpassword.ForgotPasswordTests -->
+    </test> <!-- HerokuAppTests -->
+  </suite> <!-- TheHerokuApp-UIAutomation -->
+</testng-results>

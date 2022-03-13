@@ -1,4 +1,14 @@
 C:\webdriver_java\src\main\java\pages\LoginPage.java
-C:\webdriver_java\src\main\java\pages\HomePage.java
+C:\webdriver_java\src\main\java\pages\EmailSentPage.java
 C:\webdriver_java\src\main\java\pages\SecureAreaPage.java
+C:\webdriver_java\src\main\java\pages\BasicAuthenticationPage.java
+C:\webdriver_java\src\main\java\pages\HoversPage.java
+C:\webdriver_java\src\main\java\pages\MenuElementPage.java
+C:\webdriver_java\src\main\java\pages\JavaScriptAlertsPage.java
+C:\webdriver_java\src\main\java\pages\ListPage.java
+C:\webdriver_java\src\main\java\pages\AnimagePage.java
+C:\webdriver_java\src\main\java\pages\DropdownPage.java
+C:\webdriver_java\src\main\java\pages\ShiftingContentPage.java
+C:\webdriver_java\src\main\java\pages\HomePage.java
+C:\webdriver_java\src\main\java\pages\ForgotPasswordPage.java
 C:\webdriver_java\src\main\java\utils\Config.java

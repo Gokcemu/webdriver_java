@@ -7,24 +7,34 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
+import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.BeforeTest;
 import pages.HomePage;
+
+import static utils.Config.HOME_URL;
 
 
 public class BaseTests {
-    private WebDriver driver;
+    protected WebDriver driver;
     protected HomePage homePage;
 
     @BeforeClass
     public void setUp(){
         System.setProperty("webdriver.chrome.driver", "resources/chromedriver.exe");
         driver = new ChromeDriver();
-        driver.get("https://the-internet.herokuapp.com/");
+        goHome();
         driver.manage().window().fullscreen();
         homePage = new HomePage(driver);
+    }
+
+    @BeforeMethod
+    public void goHome(){
+        driver.get(HOME_URL);
     }
 
     @AfterClass
     public void tearDown(){
         driver.quit();
     }
+
 }

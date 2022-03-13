@@ -1,8 +1,13 @@
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
-
-<suite name="testautomationui" parallel="methods" thread-count="2" >
-    <test name="LoginTests" >
+<suite name="TheHerokuApp-UIAutomation">
+    <test name="HerokuAppTests" >
         <classes>
+            <class name="base.BaseTests" />
+            <class name="digestauthenticate.BasicAuthenticationTests" />
+            <class name="dropdown.DropdownTests" />
+            <class name="forgotpassword.ForgotPasswordTests" />
+            <class name="login.LoginTests" />
+            <class name="logout.LogoutTests" />
             <class name="shiftingcontent.ShiftingContentTests" />
         </classes>
     </test>

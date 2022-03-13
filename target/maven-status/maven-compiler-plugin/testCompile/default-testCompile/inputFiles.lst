@@ -1,2 +1,8 @@
 C:\webdriver_java\src\test\java\login\LoginTests.java
+C:\webdriver_java\src\test\java\forgotpassword\ForgotPasswordTests.java
+C:\webdriver_java\src\test\java\alerts\JSAlertsTests.java
 C:\webdriver_java\src\test\java\base\BaseTests.java
+C:\webdriver_java\src\test\java\dropdown\DropdownTests.java
+C:\webdriver_java\src\test\java\shiftingcontent\ShiftingContentTests.java
+C:\webdriver_java\src\test\java\logout\LogoutTests.java
+C:\webdriver_java\src\test\java\digestauthenticate\BasicAuthenticationTests.java

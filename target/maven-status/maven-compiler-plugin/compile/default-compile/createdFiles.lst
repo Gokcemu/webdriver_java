@@ -1,4 +1,14 @@
-pages\SecureAreaPage.class
-utils\Config.class
+pages\BasicAuthenticationPage.class
+pages\MenuElementPage.class
+pages\ListPage.class
 pages\LoginPage.class
 pages\HomePage.class
+pages\JavaScriptAlertsPage.class
+pages\SecureAreaPage.class
+utils\Config.class
+pages\EmailSentPage.class
+pages\AnimagePage.class
+pages\HoversPage.class
+pages\ForgotPasswordPage.class
+pages\DropdownPage.class
+pages\ShiftingContentPage.class

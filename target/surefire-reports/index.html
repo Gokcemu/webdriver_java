@@ -1,0 +1,524 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-TheHerokuApp_UIAutomation" class="navigator-link">
+              <span class="suite-name border-passed">TheHerokuApp-UIAutomation</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-TheHerokuApp_UIAutomation" class="navigator-link ">
+                    <span>C:\webdriver_java\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-TheHerokuApp_UIAutomation" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-TheHerokuApp_UIAutomation" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-TheHerokuApp_UIAutomation" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-TheHerokuApp_UIAutomation" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-TheHerokuApp_UIAutomation" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-TheHerokuApp_UIAutomation" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">10 methods,   10 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-TheHerokuApp_UIAutomation" class="hide-methods passed suite-TheHerokuApp_UIAutomation"> (hide)</a> <!-- hide-methods passed suite-TheHerokuApp_UIAutomation -->
+                      <a href="#" panel-name="suite-TheHerokuApp_UIAutomation" class="show-methods passed suite-TheHerokuApp_UIAutomation"> (show)</a> <!-- show-methods passed suite-TheHerokuApp_UIAutomation -->
+                    </span>
+                    <div class="method-list-content passed suite-TheHerokuApp_UIAutomation">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-TheHerokuApp_UIAutomation" title="digestauthenticate.BasicAuthenticationTests" class="method navigator-link" hash-for-method="testBasicAuthenticate">testBasicAuthenticate</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-TheHerokuApp_UIAutomation" title="forgotpassword.ForgotPasswordTests" class="method navigator-link" hash-for-method="testForgotPassword">testForgotPassword</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-TheHerokuApp_UIAutomation" title="shiftingcontent.ShiftingContentTests" class="method navigator-link" hash-for-method="testMenuElementReturnHomePage">testMenuElementReturnHomePage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-TheHerokuApp_UIAutomation" title="shiftingcontent.ShiftingContentTests" class="method navigator-link" hash-for-method="testMenuElements">testMenuElements</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-TheHerokuApp_UIAutomation" title="login.LoginTests" class="method navigator-link" hash-for-method="testNullUsernameandPassword">testNullUsernameandPassword</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-TheHerokuApp_UIAutomation" title="dropdown.DropdownTests" class="method navigator-link" hash-for-method="testSelectOption">testSelectOption</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-TheHerokuApp_UIAutomation" title="login.LoginTests" class="method navigator-link" hash-for-method="testSuccesfulLogin">testSuccesfulLogin</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-TheHerokuApp_UIAutomation" title="logout.LogoutTests" class="method navigator-link" hash-for-method="testSuccessfulLogout">testSuccessfulLogout</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-TheHerokuApp_UIAutomation" title="login.LoginTests" class="method navigator-link" hash-for-method="testWrongPassword">testWrongPassword</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-TheHerokuApp_UIAutomation" title="login.LoginTests" class="method navigator-link" hash-for-method="testWrongUsername">testWrongUsername</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-TheHerokuApp_UIAutomation -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-TheHerokuApp_UIAutomation" class="panel TheHerokuApp_UIAutomation">
+          <div class="suite-TheHerokuApp_UIAutomation-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">dropdown.DropdownTests</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSelectOption">
+                  </a> <!-- testSelectOption -->
+                  <span class="method-name">testSelectOption</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-TheHerokuApp_UIAutomation-class-passed -->
+          <div class="suite-TheHerokuApp_UIAutomation-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">digestauthenticate.BasicAuthenticationTests</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testBasicAuthenticate">
+                  </a> <!-- testBasicAuthenticate -->
+                  <span class="method-name">testBasicAuthenticate</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-TheHerokuApp_UIAutomation-class-passed -->
+          <div class="suite-TheHerokuApp_UIAutomation-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">logout.LogoutTests</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSuccessfulLogout">
+                  </a> <!-- testSuccessfulLogout -->
+                  <span class="method-name">testSuccessfulLogout</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-TheHerokuApp_UIAutomation-class-passed -->
+          <div class="suite-TheHerokuApp_UIAutomation-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">forgotpassword.ForgotPasswordTests</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testForgotPassword">
+                  </a> <!-- testForgotPassword -->
+                  <span class="method-name">testForgotPassword</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-TheHerokuApp_UIAutomation-class-passed -->
+          <div class="suite-TheHerokuApp_UIAutomation-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">login.LoginTests</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testNullUsernameandPassword">
+                  </a> <!-- testNullUsernameandPassword -->
+                  <span class="method-name">testNullUsernameandPassword</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSuccesfulLogin">
+                  </a> <!-- testSuccesfulLogin -->
+                  <span class="method-name">testSuccesfulLogin</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testWrongPassword">
+                  </a> <!-- testWrongPassword -->
+                  <span class="method-name">testWrongPassword</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testWrongUsername">
+                  </a> <!-- testWrongUsername -->
+                  <span class="method-name">testWrongUsername</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-TheHerokuApp_UIAutomation-class-passed -->
+          <div class="suite-TheHerokuApp_UIAutomation-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">shiftingcontent.ShiftingContentTests</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testMenuElementReturnHomePage">
+                  </a> <!-- testMenuElementReturnHomePage -->
+                  <span class="method-name">testMenuElementReturnHomePage</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testMenuElements">
+                  </a> <!-- testMenuElements -->
+                  <span class="method-name">testMenuElements</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-TheHerokuApp_UIAutomation-class-passed -->
+        </div> <!-- panel TheHerokuApp_UIAutomation -->
+        <div panel-name="test-xml-TheHerokuApp_UIAutomation" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\webdriver_java\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;TheHerokuApp-UIAutomation&quot; guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;HerokuAppTests&quot; verbose=&quot;0&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;base.BaseTests&quot;/&gt;
+      &lt;class name=&quot;digestauthenticate.BasicAuthenticationTests&quot;/&gt;
+      &lt;class name=&quot;dropdown.DropdownTests&quot;/&gt;
+      &lt;class name=&quot;forgotpassword.ForgotPasswordTests&quot;/&gt;
+      &lt;class name=&quot;login.LoginTests&quot;/&gt;
+      &lt;class name=&quot;logout.LogoutTests&quot;/&gt;
+      &lt;class name=&quot;shiftingcontent.ShiftingContentTests&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- HerokuAppTests --&gt;
+&lt;/suite&gt; &lt;!-- TheHerokuApp-UIAutomation --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-TheHerokuApp_UIAutomation" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for TheHerokuApp-UIAutomation</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">HerokuAppTests (7 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-TheHerokuApp_UIAutomation" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for TheHerokuApp-UIAutomation</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-TheHerokuApp_UIAutomation" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for TheHerokuApp-UIAutomation</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_TheHerokuApp_UIAutomation');
+function tableData_TheHerokuApp_UIAutomation() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(10);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'testSuccessfulLogout')
+data.setCell(0, 2, 'logout.LogoutTests')
+data.setCell(0, 3, 1543);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'testNullUsernameandPassword')
+data.setCell(1, 2, 'login.LoginTests')
+data.setCell(1, 3, 1538);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'testWrongPassword')
+data.setCell(2, 2, 'login.LoginTests')
+data.setCell(2, 3, 976);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'testSuccesfulLogin')
+data.setCell(3, 2, 'login.LoginTests')
+data.setCell(3, 3, 972);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'testWrongUsername')
+data.setCell(4, 2, 'login.LoginTests')
+data.setCell(4, 3, 943);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'testMenuElementReturnHomePage')
+data.setCell(5, 2, 'shiftingcontent.ShiftingContentTests')
+data.setCell(5, 3, 883);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'testForgotPassword')
+data.setCell(6, 2, 'forgotpassword.ForgotPasswordTests')
+data.setCell(6, 3, 826);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'testMenuElements')
+data.setCell(7, 2, 'shiftingcontent.ShiftingContentTests')
+data.setCell(7, 3, 534);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'testSelectOption')
+data.setCell(8, 2, 'dropdown.DropdownTests')
+data.setCell(8, 3, 487);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'testBasicAuthenticate')
+data.setCell(9, 2, 'digestauthenticate.BasicAuthenticationTests')
+data.setCell(9, 3, 2);
+window.suiteTableData['TheHerokuApp_UIAutomation']= { tableData: data, tableDiv: 'times-div-TheHerokuApp_UIAutomation'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 8 seconds</span>
+              <div id="times-div-TheHerokuApp_UIAutomation">
+              </div> <!-- times-div-TheHerokuApp_UIAutomation -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-TheHerokuApp_UIAutomation" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for TheHerokuApp-UIAutomation</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-TheHerokuApp_UIAutomation" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-TheHerokuApp_UIAutomation" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">digestauthenticate.BasicAuthenticationTests</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">testBasicAuthenticate</span>
+                <span class="method-start">5352 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">5361 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">dropdown.DropdownTests</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">5789 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">testSelectOption</span>
+                <span class="method-start">9138 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">9625 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">forgotpassword.ForgotPasswordTests</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">9991 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">testForgotPassword</span>
+                <span class="method-start">16526 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">17352 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">login.LoginTests</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">17743 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">testNullUsernameandPassword</span>
+                <span class="method-start">21343 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testSuccesfulLogin</span>
+                <span class="method-start">22882 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testWrongPassword</span>
+                <span class="method-start">23855 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testWrongUsername</span>
+                <span class="method-start">24831 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">25774 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">logout.LogoutTests</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">26204 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">testSuccessfulLogout</span>
+                <span class="method-start">29691 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">31235 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">shiftingcontent.ShiftingContentTests</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">31612 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">testMenuElementReturnHomePage</span>
+                <span class="method-start">35870 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testMenuElements</span>
+                <span class="method-start">36754 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">37288 ms</span>
+              </div> <!-- configuration-class after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>
