@@ -5,7 +5,7 @@ The automation framework implemented for the https://the-internet.herokuapp.com/
 Maven, Java, Selenium WebDriver, and for testing framework TestNG.
 
 <code> mvn clean</code> <br /> <code> mvn install </code> <br />
-<code> mvn package -DskipTests </code> install without tests
+<code> mvn package -DskipTests </code> install without running tests
 
 ## running the tests
 <code> mvn test </code> <br />
